@@ -31,8 +31,8 @@ import kr.or.ddit.groupware.vo.NewsItemVO;
  */
 
 public class News {
-    private static final String clientId = "zbNsn7k8xUsjB_wS09Kr"; // 애플리케이션 클라이언트 아이디
-    private static final String clientSecret = "gwWKrX4Q5Y"; // 애플리케이션 클라이언트 시크릿
+    private static final String clientId = "애플리케이션 클라이언트 아이디"; // 애플리케이션 클라이언트 아이디
+    private static final String clientSecret = "애플리케이션 클라이언트 시크릿"; // 애플리케이션 클라이언트 시크릿
 
     public static List<NewsItemVO> searchNews(String keyword) {
         String text = null;
